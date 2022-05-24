@@ -15,7 +15,7 @@ const Home = () => {
     if (inputValue.split(" ")[0] === "open") {
       setOutput([...output, inputValue.split(" ")[0]]);
       let url = inputValue.split(" ")[1];
-      if (inputValue.split(" ").length==1) {
+      if (inputValue.split(" ").length===1) {
         url = "/aboutme";
         window.open(url);
       } else if (url.startsWith("http://") || url.startsWith("https://")) {

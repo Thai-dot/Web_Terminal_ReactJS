@@ -20,7 +20,12 @@ const AboutMe = () => {
       <h4 className="text-center mt-4">Address:BenTre, VietNam</h4>
       <h4 className="text-center mt-4">PhoneNumber:0919520565</h4>
       <div className="iconGroup d-flex justify-content-evenly">
-        <a href="https://www.facebook.com/nguyenthai7871/" className="icon" target="_blank">
+        <a
+          href="https://www.facebook.com/nguyenthai7871/"
+          rel="noopener"
+          className="icon"
+          target="_blank"
+        >
           <img src={facebook} width={35} height={35} alt="facebookicon" />
         </a>
         <a
@@ -35,8 +40,16 @@ const AboutMe = () => {
           href="
         https://github.com/Thai-dot"
           target="_blank"
+          rel="noopener"
         >
-          <img src={github} width={35} height={35} alt="githubicon" />
+          <img
+            src={github}
+            width={35}
+            height={35}
+            rel="noopener"
+            target="_blank"
+            alt="githubicon"
+          />
         </a>
       </div>
     </div>

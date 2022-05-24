@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
@@ -15,6 +15,6 @@ const ErrorPage = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ErrorPage
+export default ErrorPage;

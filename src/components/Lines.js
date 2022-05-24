@@ -21,7 +21,7 @@ const Lines = ({inputValue}) => {
         ThaiDot$ <span className="textCommand">{inputValue}</span>
       </div>
       <pre className="resultLine">
-        {commands[printValue] || commands[printValue] == ""
+        {commands[printValue] || commands[printValue] === ""
           ? commands[printValue]
           : "Invalid command"}
       </pre>

@@ -1,5 +1,5 @@
 import React from "react";
-import happyFace from "../media/happy-face.png";
+
 
 const Nav = () => {
   return (
