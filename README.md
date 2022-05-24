@@ -3,7 +3,8 @@ Typedjs
 Reactjs
 WinBoxJs
 AnimateBackground?
-#Live demo:
+
+# Live demo:
 https://webterminal-reactjs.netlify.app/home
 
-**Feels free to use**
+**Feel free to use**
