@@ -1,8 +1,8 @@
 # Some libraries I used:
-Typedjs
-Reactjs
-WinBoxJs
-AnimateBackground?
+TypeWriterReactjs
+Reactjsv18
+React-Router-Domv6
+Bootstrapv5.2
 
 # Live demo:
 https://webterminal-reactjs.netlify.app/home
